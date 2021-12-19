@@ -1,3 +1,491 @@
 body{
     background-color: #F7F7F7;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Oswald;
+
 }
+header{
+    background-color: #ffff;
+    width: 100%;
+    font-family: Open Sans;
+
+}
+.topnavmobile{
+    background-color: #ffff;
+}
+.topnav2{
+    background-color: #ffff;
+}
+img{
+    width: 100%;
+}
+.intro{
+    background-color: #CB92ED;
+}
+h2{
+    margin: 0;
+    color: #512C66;
+}
+h1{
+    margin: 0;
+    color: #FFFFFF;
+}
+h3{
+    color: #512C66;
+}
+aside{
+    color: #E2CDEF;
+    font-family: Open Sans;
+}
+p{
+    font-family: Open Sans;
+}
+.fa{
+    color: #ffff;
+}
+.diff{
+    color: #512C66;;
+}
+footer{
+    background-color: #ffff;
+    text-decoration: none;
+    color: #512C66;
+}
+
+
+
+    @media screen and (max-width: 600px){ 
+        .topnav2{
+            display: none;
+        }
+        header{
+            height: 50px;
+        }
+        .topnavmobile{
+            box-sizing: border-box;
+            width: 100%;
+            position: fixed;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        header .topnavmobile .logomobile{
+            width: 35px;
+            height: 35px;
+            margin: 7.5px 0 7.5px 20px;
+        }
+        header .topnavmobile a{
+            display: inline-block;
+            align-self: center;
+            text-decoration: none;
+            color: #52BDCB;
+            padding: 12px 20px 12px 0;
+        }
+        .intro{
+            height: auto;
+            display: flex;
+            flex-direction: column;
+        }
+        .intro h2{
+            font-size: 40px;
+            padding: 75px 10% 20px 10%;
+        }
+        .intro h1{
+            font-size: 110px;
+            padding: 0 11%;
+        }
+        .intro .portfolio{
+            width: 50%;
+            display: block;
+            margin-left: auto;
+            margin-top: -30%;
+
+        }
+        aside{
+            float: right;
+            font-size: 30px;
+            margin: 0px;
+        }
+        aside p{
+            margin: -20% 0 0 0 ;
+            padding: 0;
+            text-align: right;
+            font-size: 15px;
+        }
+        .dif{
+            font-size: 40px;
+            padding: 0 10%;
+            margin-top: 10%;
+            
+        }
+        h3{
+            font-size: 25px;
+            padding: 0 20%;
+            text-align: center;
+            margin-top: 30%;
+
+        }
+        
+        h4{
+            color: #CB92ED;
+            font-size: 30px;
+            padding-left: 15%;
+        }
+        .myschools{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 0 40px;
+        }
+        .myschools section{
+            width: 40%;
+            border-radius: 10%;
+            background-color: #ffff;
+            border: 1px;
+            padding: 5px 10px 10px 10px;
+            
+            
+        } 
+        .myschools img{
+            padding-top: 10px;
+        }
+        .myschools .zealandlogo{
+            padding-top: 50px;
+        }
+        .myschools h5{
+            font-size: 15px;
+            text-align: center;
+
+        }
+        p{
+            padding: 0 30px;
+        }
+        .projects{
+            background-color: #E4C9F4;
+            padding: 0 40px;
+            padding-bottom: 100px;
+        }
+        .projects div{
+            padding-bottom: 10%;
+        }
+        .projects h4{
+            color: #ffff;
+            padding-top: 50px;
+        }
+        .projects img{
+            border-radius: 20%;
+        }
+        .projects h3{
+            text-align: center;
+            padding: 0;
+            font-size: 30px;
+            margin: 0 0 10% 0;
+
+        }
+        .projects ul{
+            color: #512C66;
+        }
+        .process{
+            padding: 10px 40px 100px 40px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap:  20px;
+            margin-bottom: 50px;
+        }
+        .process section{
+            width: 45%;
+            background-color: #E4C9F4;
+            color: #ffff;
+            border-radius: 20px;
+        }
+        .process h4{
+            text-align: center;
+            color: #ffff;
+            margin: 0;
+            padding: 20px 0 5px 0 ;
+        }
+        .process p{
+            padding: 10%;
+            margin: 0;
+            font-size: 14px;
+        }
+        .process h3{
+            color: #ffff;
+            text-align: center;
+            padding-top: 10%;
+        }
+        .process a{
+            text-decoration: none;
+            padding: 0 37%;
+        }
+        .process .diff{
+            color: #512C66;;
+            padding-top: 80px;
+        }
+        footer{
+            background-color: #ffff;
+            text-decoration: none;
+            color: #512C66;
+            align-items: center;
+            text-align: center;
+            padding: 10px 0 20px 0;
+        }
+        footer h4{
+            color: #512C66;
+            margin: 0;
+            padding: 0;
+        }
+        footer a{
+            text-decoration: none;
+            color: #512C66;
+        }
+        footer .contct{
+            display: flex;
+            flex-direction: column;
+            padding: 10% 0;
+        }
+        
+       
+    
+
+
+
+    }      
+    @media screen and (min-width: 601px ){  
+        .topnavmobile{
+            display: none;
+        }
+        
+        header{
+            height: 50px;
+        }
+        .topnav2{
+            box-sizing: border-box;
+            width: 100%;
+            position: fixed;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        header .topnav2 .logonav2{
+            width: 35px;
+            height: 35px;
+            margin: 7.5px 0 7.5px 60px;
+        }
+        header .topnav2 a{
+            display: inline-block;
+            align-self: center;
+            text-decoration: none;
+            color: #52BDCB;
+            padding: 12px 0px 12px 20px;
+        }
+        header .topnav2 .pade{
+            display: inline-block;
+            align-self: center;
+            text-decoration: none;
+            color: #52BDCB;
+            padding: 12px 60px 12px 0;
+        }
+        .intro{
+            height: auto;
+        }
+        .intro h2{
+            font-size: 60px;
+            padding: 75px 20px 20px 20px;
+        }
+        .intro h1{
+            font-size: 120px;
+            padding: 0 20px;
+        }
+        .intro .portfolio{
+            width: 40%;
+            margin-top: -20%;
+            display: block;
+            margin-left: auto;
+
+        }
+        aside p{
+            padding: 0;
+            text-align: right;
+            font-size: 25px;
+            margin-top: 0;
+        }
+        .dif{
+            font-size: 50px;
+            padding: 0 10%;
+            
+            
+        }
+        h4{
+            color: #CB92ED;
+            font-size: 30px;
+            padding-left: 20%;
+        }
+        .myschools{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 0 10%;
+            padding-top: 20px;
+        }
+        .myschools section{
+            width: 45%;
+            border-radius: 10%;
+            background-color: #ffff;
+            border: 1px;
+            padding: 5px 10px 20px 10px;
+            
+            
+        } 
+        .myschools img{
+            padding-top: 10px;
+            display: block;
+            margin: auto;
+            width: 70%;
+        }
+        .myschools .zealandlogo{
+            padding-top: 50px;
+        }
+        .myschools h5{
+            font-size: 25px;
+            text-align: center;
+            margin: 0;
+
+        }
+        p{
+            padding: 0 10%;
+            font-size: 25px;
+        }
+        .projects{
+            background-color: #E4C9F4;
+            padding: 0 40px;
+            padding-bottom: 100px;
+        }
+        .projects div{
+            align-content: center;
+            display: flex;
+            flex-direction: row;
+            padding-bottom: 40px;
+        }
+        .projects .revers{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        .projects h4{
+            color: #ffff;
+            padding-top: 50px;
+        }
+        .projects img{
+            width: 60%;
+            border-radius: 20%;
+        }
+        .projects h3{
+            text-align: center;
+            font-size: 60px;
+        }
+        .projects ul{
+            color: #512C66;
+            margin: 0 auto;
+        }
+
+        .process{
+            padding: 10px 40px 100px 40px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap:  20px;
+            margin-bottom: 50px;
+        }
+        .process section{
+            width: 47%;
+            background-color: #E4C9F4;
+            color: #ffff;
+            border-radius: 20px;
+        }
+        .process h4{
+            text-align: center;
+            color: #ffff;
+            margin: 0;
+            padding: 20px 0 5px ;
+        }
+        .process p{
+            padding: 10%;
+            margin: 0;
+        }
+        .process h3{
+            color: #ffff;
+            text-align: center;
+            
+        }
+        .process a{
+            text-decoration: none;
+            align-self: center;
+            padding: 0 44%;
+        }
+        .process .diff{
+            color: #512C66;;
+            margin: 0;
+            padding:  80px 20% 0 20%;
+        }
+        footer{
+            background-color: #ffff;
+            text-decoration: none;
+            color: #512C66;
+            align-items: center;
+            text-align: center;
+            padding: 10px 0 20px 0;
+        }
+        footer h4{
+            color: #512C66;
+            margin: 0;
+        }
+        footer a{
+            text-decoration: none;
+            color: #512C66;
+        }
+        footer .contct{
+            display: flex;
+            flex-direction: column;
+        }
+        
+       
+    
+
+
+
+
+
+
+    }
+    @media screen and (min-width: 901px){ 
+        .topnavmobile{
+            display: none;
+        }
+        .intro{
+            height: auto;
+            display: flex;
+            flex-direction: row;
+        }
+        .intro h2{
+            font-size: 100px;
+
+        }
+        .intro h1{
+            font-size: 200px;
+        }
+        .intro .portfolio{
+            width: 30%;
+            position: relative;
+            float: right;
+
+        }
+        .process section{
+            width: 30%;
+           align-self: center;
+        }
+        .process a {
+            padding: 0 44.5%;
+        }
+    }   
